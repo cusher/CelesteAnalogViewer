@@ -1,0 +1,6 @@
+- Name: AnalogViewer
+  Version: 1.1.0
+  DLL: AnalogViewer.dll
+  Dependencies:
+    - Name: Everest
+      Version: 1.0.0
