@@ -1,2 +1,2 @@
 # AnalogViewer
-Replace with your mod's readme!
+See information about analog input on screen, useful for debugging controller issues.
