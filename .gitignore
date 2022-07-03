@@ -352,3 +352,5 @@ MigrationBackup/
 # JetBrains Rider
 .idea
 
+#Symlink I added on my local machine (gameboycjp)
+AnalogViewer.dll
