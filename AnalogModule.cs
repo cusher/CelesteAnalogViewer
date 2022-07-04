@@ -1,9 +1,12 @@
-﻿namespace Celeste.Mod.AnalogViewer
+﻿using System;
+
+namespace Celeste.Mod.AnalogViewer
 {
     public class AnalogModule : EverestModule
     {
         public static AnalogModule Instance;
 
+        public override Type SettingsType => typeof(AnalogViewerSettings);
         public static AnalogViewerSettings Settings => (AnalogViewerSettings)Instance._Settings;
 
         public AnalogModule()
